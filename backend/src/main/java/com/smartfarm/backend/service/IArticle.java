@@ -1,7 +1,21 @@
 package com.smartfarm.backend.service;
 
+import com.smartfarm.backend.model.dto.ArticleDtoForList;
+import com.smartfarm.backend.model.entities.Article;
 import com.smartfarm.backend.model.dto.ArticleDto;
+import java.util.List;
 
 public interface IArticle {
+    Article findByNumber(Integer number);
+//
+//    List<ArticleDto> listArticles();
+//    ArticleDto findById(String id);
+//    ArticleDto findByNumberDto(Integer number);
+
+    public void deleteByNumber(Integer number);
+    List<ArticleDtoForList> listArticles();
+    ArticleDtoForList searchArticleByNom(String nom);
+    List<ArticleDtoForList> searchArticlesBYkeyword(String keyword);
+    List<ArticleDto> searchArticlesBYCategorie(String category);
     ArticleDto findById(String id);
 }

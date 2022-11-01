@@ -1,5 +1,7 @@
 package com.smartfarm.backend.repository;
 
+import com.smartfarm.backend.model.dto.ArticleDto;
+import com.smartfarm.backend.model.dto.CommandearticleDto;
 import com.smartfarm.backend.model.entities.Commandearticle;
 import com.smartfarm.backend.model.entities.CommandearticleId;
 import org.springframework.data.jpa.repository.JpaRepository;
