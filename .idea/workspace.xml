@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="068864b8-f0bf-4c39-ab0e-b9760d437feb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/smartfarm/backend/repository/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/smartfarm/backend/service/ICustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/smartfarm/backend/serviceImpl/CustomerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InsertionBD.sql" beforeDir="false" afterPath="$PROJECT_DIR$/InsertionBD.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/smartfarm/backend/presentation/api/CommandeRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/smartfarm/backend/presentation/api/CommandeRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/smartfarm/backend/repository/CommandeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/smartfarm/backend/repository/CommandeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/smartfarm/backend/service/ICommande.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/smartfarm/backend/service/ICommande.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/smartfarm/backend/service/ICommandearticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/smartfarm/backend/service/ICommandearticle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/smartfarm/backend/serviceImpl/CommandeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/smartfarm/backend/serviceImpl/CommandeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/smartfarm/backend/serviceImpl/CommandearticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/smartfarm/backend/serviceImpl/CommandearticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestServiceSOAP/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +15,22 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="JPA Inspector" value="true" />
+        <entry key="JPA Palette" value="true" />
+        <entry key="JPA Structure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="JPA Inspector" value="false" />
+        <entry key="JPA Palette" value="false" />
+        <entry key="JPA Structure" value="true" />
+      </map>
+    </option>
   </component>
   <component name="ProjectId" id="2HgFJPXP02CFE7nmlLkIpf9Gl1y" />
   <component name="ProjectViewState">
@@ -31,6 +42,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Intégration Continue/Projet/Backend/backend_java_tapyo/takeAndPutYourOwn" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager">
+    <configuration name="BackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.smartfarm.backend.BackendApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -41,6 +66,9 @@
       <option name="presentableId" value="Default" />
       <updated>1668698748227</updated>
       <workItem from="1668698752584" duration="35000" />
+      <workItem from="1670834753335" duration="129000" />
+      <workItem from="1670836498805" duration="109000" />
+      <workItem from="1670837968118" duration="3803000" />
     </task>
     <servers />
   </component>
