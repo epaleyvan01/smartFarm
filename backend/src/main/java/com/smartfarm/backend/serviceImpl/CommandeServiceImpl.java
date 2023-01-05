@@ -32,6 +32,37 @@ public class CommandeServiceImpl implements ICommande {
     ICommandearticle iCommandearticle;
 
     @Override
+    public List<CommandeDto> listCommandes() {
+        List<CommandeDto> commandeDtos = commandeRepository.findAll().stream().map(commande -> {
+            CommandeDto commandeDto = commandeMapper.toDto(commande);
+            commandeDto.setClientDto(customerMapper.toDto(commande.getClient()));
+            return commandeDto;
+        }).collect(Collectors.toList());
+        return commandeDtos;
+    }
+
+    @Override
+    public CommandeDto searchArticleById(String id) {
+        return commandeMapper.toDto( commandeRepository.findCommandeById(id).get());
+    }
+
+    @Override
+    public int deleteCommandeById(String id) {
+        commandeRepository.deleteById(commandeRepository.findCommandeById(id).get().getId());
+        return 1;
+    }
+
+    @Override
+    public String saveCommande(CommandeDto commandeDto) {
+        if(commandeRepository.findCommandeById(commandeDto.getId()).isPresent()){
+            return "0";
+        }
+        else {
+            return commandeRepository.save(commandeMapper.toEntity(commandeDto)).getId();
+        }
+    }
+
+    @Override
     public CommandeDto updateStatutCommande(String id, String state) {
         CommandeDto commandeDto = commandeMapper.toDto(commandeRepository.findById(id).get());
         commandeDto.setStatutCommande(state);
