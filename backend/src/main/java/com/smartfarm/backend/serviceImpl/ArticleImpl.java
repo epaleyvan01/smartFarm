@@ -95,4 +95,22 @@ public class ArticleImpl implements IArticle{
         articleDto.setFermierDto(iFermier.findFermierById(article.getFermier().getId()));
         return articleDto;
     }
+
+    @Override
+    public Article saveArticle(Article article) {
+        return articleRepository.save(article);
+    }
+
+    @Override
+    public ArticleDto updateArticle(ArticleDto articleDto) {
+        Article article = articleRepository.findById(articleDto.getId()).get();
+        articleMapper.copy(articleDto, article);
+        return articleMapper.toDto(articleRepository.save(article));
+
+    }
+
+    @Override
+    public void deleteArticle(ArticleDto articleDto) {
+        articleRepository.delete(articleMapper.toEntity(articleDto));
+    }
 }

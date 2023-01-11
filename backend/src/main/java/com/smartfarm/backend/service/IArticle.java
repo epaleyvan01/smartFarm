@@ -13,4 +13,7 @@ public interface IArticle {
     List<ArticleDtoForList> searchArticlesBYkeyword(String keyword);
     List<ArticleDtoForList> searchArticlesBYCategorie(String category);
     ArticleDto findById(String id);
+    Article saveArticle(Article article);
+    ArticleDto updateArticle(ArticleDto articleDto);
+    void deleteArticle(ArticleDto articleDto);
 }
