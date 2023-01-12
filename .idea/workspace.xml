@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="068864b8-f0bf-4c39-ab0e-b9760d437feb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestServiceSOAP/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/smartfarm/backend/repository/FermierRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/smartfarm/backend/repository/FermierRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/smartfarm/backend/service/IArticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/smartfarm/backend/service/IArticle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/smartfarm/backend/service/IFermier.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/smartfarm/backend/service/IFermier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/smartfarm/backend/serviceImpl/ArticleImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/smartfarm/backend/serviceImpl/ArticleImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/smartfarm/backend/serviceImpl/FermierServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/smartfarm/backend/serviceImpl/FermierServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +27,9 @@
         <entry key="JPA Inspector" value="true" />
         <entry key="JPA Palette" value="true" />
         <entry key="JPA Structure" value="true" />
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
@@ -29,6 +37,9 @@
         <entry key="JPA Inspector" value="false" />
         <entry key="JPA Palette" value="false" />
         <entry key="JPA Structure" value="true" />
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
   </component>

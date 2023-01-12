@@ -37,4 +37,25 @@ public class FermierServiceImpl implements IFermier {
         fermierMapper.copy(fermierDto, fermier);
         return fermierMapper.toDto(fermierRepository.save(fermier));
     }
+
+    @Override
+    public Fermier saveFermier(Fermier fermier) {
+        return fermierRepository.save(fermier);
+    }
+
+    @Override
+    public String authentificate(String mail, String mdp) {
+        long idferm = fermierRepository.getIdByMail(mail);
+        mdp = fermierRepository.getMdpById(idferm);
+
+        if(mdp.compareTo(mdp) == 0)
+            return "connect";
+        else
+            return "chic";
+    }
+
+    @Override
+    public void deconnect(Fermier fermier) {
+
+    }
 }
